@@ -1,20 +1,20 @@
-#ifndef SINGLETON_H
-#define SINGLETON_H
+#ifndef ELASINGLETON_H
+#define ELASINGLETON_H
 
 #include <QMutex>
 
 template <typename T>
-class Singleton
+class ElaSingleton
 {
 public:
     static T* getInstance();
 
 private:
-    Q_DISABLE_COPY(Singleton)
+    Q_DISABLE_COPY(ElaSingleton)
 };
 
 template <typename T>
-T* Singleton<T>::getInstance()
+T* ElaSingleton<T>::getInstance()
 {
     static QMutex mutex;
     QMutexLocker locker(&mutex);
@@ -28,12 +28,12 @@ T* Singleton<T>::getInstance()
 
 #define Q_SINGLETON_CREATE(Class)               \
 private:                                        \
-    friend class Singleton<Class>;              \
+    friend class ElaSingleton<Class>;              \
                                                 \
 public:                                         \
     static Class* getInstance()                 \
     {                                           \
-        return Singleton<Class>::getInstance(); \
+        return ElaSingleton<Class>::getInstance(); \
     }
 
 #define Q_SINGLETON_CREATE_H(Class) \
@@ -56,4 +56,4 @@ public:                             \
         return _instance;              \
     }
 
-#endif // SINGLETON_H
+#endif // ELASINGLETON_H
