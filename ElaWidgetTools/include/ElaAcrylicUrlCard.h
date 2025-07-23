@@ -4,8 +4,8 @@
 #include <QPixmap>
 #include <QPushButton>
 
-#include "Def.h"
-#include "stdafx.h"
+#include "ElaDef.h"
+#include "ElaStdAfx.h"
 class ElaAcrylicUrlCardPrivate;
 class ELA_EXPORT ElaAcrylicUrlCard : public QPushButton
 {

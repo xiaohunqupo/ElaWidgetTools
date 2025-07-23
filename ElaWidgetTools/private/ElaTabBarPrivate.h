@@ -4,7 +4,7 @@
 #include <QObject>
 #include <QPixmap>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaTabBar;
 class ElaTabBarPrivate : public QObject
 {

@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaLog;
 class ElaLogPrivate : public QObject
 {

@@ -3,7 +3,7 @@
 
 #include <QToolButton>
 
-#include "Def.h"
+#include "ElaDef.h"
 class ElaMenu;
 class ElaToolButtonPrivate;
 class ELA_EXPORT ElaToolButton : public QToolButton

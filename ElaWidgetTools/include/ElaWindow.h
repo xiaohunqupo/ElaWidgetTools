@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 
-#include "Def.h"
+#include "ElaDef.h"
 #include "ElaAppBar.h"
 
 class ElaWindowPrivate;

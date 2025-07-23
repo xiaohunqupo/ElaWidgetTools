@@ -4,8 +4,8 @@
 #include <QColor>
 #include <QObject>
 
-#include "Def.h"
-#include "stdafx.h"
+#include "ElaDef.h"
+#include "ElaStdAfx.h"
 class ElaPushButton;
 class ElaPushButtonPrivate : public QObject
 {

@@ -3,7 +3,7 @@
 
 #include <QWidget>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaToolTipPrivate;
 class ELA_EXPORT ElaToolTip : public QWidget
 {

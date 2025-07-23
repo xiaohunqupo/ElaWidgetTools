@@ -5,8 +5,8 @@
 #include <QMap>
 #include <QObject>
 
-#include "Def.h"
-#include "stdafx.h"
+#include "ElaDef.h"
+#include "ElaStdAfx.h"
 class ElaTheme;
 class ElaThemePrivate : public QObject
 {

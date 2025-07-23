@@ -3,7 +3,7 @@
 
 #include <QWidget>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaToggleSwitchPrivate;
 class ELA_EXPORT ElaToggleSwitch : public QWidget
 {

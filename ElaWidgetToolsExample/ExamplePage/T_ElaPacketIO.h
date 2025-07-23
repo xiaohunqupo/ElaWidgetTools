@@ -5,7 +5,7 @@
 #if defined(Q_OS_WIN) && defined(BUILD_WITH_ELAPACKETIO)
 #include "ElaXIO_PacketRegistry.h"
 #include "UtCallbackHolder.h"
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 #include <QImage>
 #include <QMutex>
 #include <QQueue>

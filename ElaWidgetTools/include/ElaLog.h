@@ -3,8 +3,8 @@
 
 #include <QObject>
 
-#include "singleton.h"
-#include "stdafx.h"
+#include "ElaSingleton.h"
+#include "ElaStdAfx.h"
 
 class ElaLogPrivate;
 class ELA_EXPORT ElaLog : public QObject

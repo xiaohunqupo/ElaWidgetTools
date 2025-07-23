@@ -3,7 +3,7 @@
 
 #include <QWidget>
 
-#include "Def.h"
+#include "ElaDef.h"
 
 #ifdef Q_OS_WIN
 #if QT_VERSION >= QT_VERSION_CHECK(6, 0, 0)

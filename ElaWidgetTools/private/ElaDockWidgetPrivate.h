@@ -3,8 +3,8 @@
 
 #include <QObject>
 
-#include "Def.h"
-#include "stdafx.h"
+#include "ElaDef.h"
+#include "ElaStdAfx.h"
 class ElaDockWidget;
 class ElaDockWidgetTitleBar;
 class ElaDockWidgetPrivate : public QObject

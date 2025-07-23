@@ -4,7 +4,7 @@
 #include <QDrag>
 #include <QTabBar>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaTabBarPrivate;
 class ELA_EXPORT ElaTabBar : public QTabBar
 {

@@ -1,7 +1,7 @@
 #ifndef ELAFRAMEWORK_ELAWIDGETTOOLS_INCLUDE_ELADRAWERAREA_H_
 #define ELAFRAMEWORK_ELAWIDGETTOOLS_INCLUDE_ELADRAWERAREA_H_
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 #include <QWidget>
 
 class ElaDrawerAreaPrivate;

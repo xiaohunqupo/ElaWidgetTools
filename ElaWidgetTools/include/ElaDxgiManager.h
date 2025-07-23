@@ -3,8 +3,8 @@
 
 #include <QWidget>
 #ifdef Q_OS_WIN
-#include "singleton.h"
-#include "stdafx.h"
+#include "ElaSingleton.h"
+#include "ElaStdAfx.h"
 
 class ElaDxgiManagerPrivate;
 class ELA_EXPORT ElaDxgiManager : public QObject

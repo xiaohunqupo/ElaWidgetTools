@@ -6,8 +6,8 @@
 #include <QPixmap>
 #include <QSize>
 
-#include "Def.h"
-#include "stdafx.h"
+#include "ElaDef.h"
+#include "ElaStdAfx.h"
 class ElaInteractiveCard;
 class ElaInteractiveCardPrivate : public QObject
 {

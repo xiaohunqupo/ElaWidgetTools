@@ -3,8 +3,8 @@
 #include <QObject>
 #include <QVector>
 
-#include "Def.h"
-#include "stdafx.h"
+#include "ElaDef.h"
+#include "ElaStdAfx.h"
 class ElaComboBoxStyle;
 class ElaComboBoxView;
 class ElaMultiSelectComboBox;

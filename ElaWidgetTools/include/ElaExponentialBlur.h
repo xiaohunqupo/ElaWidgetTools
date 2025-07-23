@@ -3,8 +3,8 @@
 
 #include <QObject>
 
-#include "singleton.h"
-#include "stdafx.h"
+#include "ElaSingleton.h"
+#include "ElaStdAfx.h"
 
 class ElaExponentialBlurPrivate;
 class ELA_EXPORT ElaExponentialBlur : public QObject

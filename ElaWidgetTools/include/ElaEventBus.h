@@ -4,9 +4,9 @@
 #include <QObject>
 #include <QVariantMap>
 
-#include "Def.h"
-#include "singleton.h"
-#include "stdafx.h"
+#include "ElaDef.h"
+#include "ElaSingleton.h"
+#include "ElaStdAfx.h"
 class ElaEventPrivate;
 class ELA_EXPORT ElaEvent : public QObject
 {

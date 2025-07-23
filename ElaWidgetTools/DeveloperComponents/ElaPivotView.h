@@ -3,7 +3,7 @@
 
 #include <QListView>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaPivotStyle;
 class ElaPivotView : public QListView
 {

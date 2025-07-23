@@ -1,5 +1,5 @@
-﻿#ifndef STDAFX_H
-#define STDAFX_H
+﻿#ifndef ELASTDAFX_H
+#define ELASTDAFX_H
 
 #include <QtCore/qglobal.h>
 
@@ -101,4 +101,4 @@ protected:                \
 private:                  \
     Q_DECLARE_PUBLIC(CLASS);
 
-#endif // STDAFX_H
+#endif // ELASTDAFX_H

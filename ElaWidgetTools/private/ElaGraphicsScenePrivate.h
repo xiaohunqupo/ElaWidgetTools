@@ -6,7 +6,7 @@
 #include <QPointF>
 
 #include "ElaGraphicsScene.h"
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaGraphicsItem;
 class ElaGraphicsLineItem;
 class ElaGraphicsScenePrivate : public QObject

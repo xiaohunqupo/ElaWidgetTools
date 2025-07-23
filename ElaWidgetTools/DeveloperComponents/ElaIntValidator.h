@@ -3,7 +3,7 @@
 
 #include <QIntValidator>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaIntValidator : public QIntValidator
 {
     Q_OBJECT

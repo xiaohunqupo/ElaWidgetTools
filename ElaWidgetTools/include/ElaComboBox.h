@@ -3,7 +3,7 @@
 
 #include <QComboBox>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 
 class ElaComboBoxPrivate;
 class ELA_EXPORT ElaComboBox : public QComboBox

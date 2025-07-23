@@ -4,7 +4,7 @@
 #include <QMap>
 #include <QObject>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaScrollPage;
 class ElaScrollArea;
 class QHBoxLayout;

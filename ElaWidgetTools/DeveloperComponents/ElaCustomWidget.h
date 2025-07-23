@@ -3,7 +3,7 @@
 
 #include <QDialog>
 
-#include "Def.h"
+#include "ElaDef.h"
 #include "ElaAppBar.h"
 
 class QVBoxLayout;

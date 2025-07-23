@@ -3,7 +3,7 @@
 
 #include <QWidget>
 
-#include "Def.h"
+#include "ElaDef.h"
 #include "ElaAppBar.h"
 class ElaWidgetPrivate;
 class ELA_EXPORT ElaWidget : public QWidget

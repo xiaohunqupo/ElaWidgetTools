@@ -4,7 +4,7 @@
 #include <QDialog>
 
 #include "ElaAppBar.h"
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaColorDialogPrivate;
 class ELA_EXPORT ElaColorDialog : public QDialog
 {

@@ -5,7 +5,7 @@
 #include <QDate>
 #include <QMetaType>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 enum ElaCalendarType
 {
     YearMode = 0x0001,

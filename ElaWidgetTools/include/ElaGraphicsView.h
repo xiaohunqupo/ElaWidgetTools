@@ -3,7 +3,7 @@
 
 #include <QGraphicsView>
 
-#include "stdafx.h"
+#include "ElaStdAfx.h"
 class ElaGraphicsViewPrivate;
 class ELA_EXPORT ElaGraphicsView : public QGraphicsView
 {

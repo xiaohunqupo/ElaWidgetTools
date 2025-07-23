@@ -1,7 +1,7 @@
 #ifndef ELAWIDGETTOOLS_SRC_ELAKEYBINDER_H_
 #define ELAWIDGETTOOLS_SRC_ELAKEYBINDER_H_
 
-#include "Def.h"
+#include "ElaDef.h"
 #include <QLabel>
 
 class ElaKeyBinderPrivate;
